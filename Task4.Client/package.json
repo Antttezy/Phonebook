@@ -1,0 +1,40 @@
+{
+    "name": "task4.client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "react-scripts start",
+        "build": "react-scripts build"
+    },
+    "author": "antttezy",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^17.0.10",
+        "@types/react": "^17.0.38",
+        "@types/react-dom": "^17.0.11",
+        "react-scripts": "^5.0.0",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "axios": "^0.25.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.6",
+        "react-router-dom": "^6.2.1",
+        "redux": "^4.1.2"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
