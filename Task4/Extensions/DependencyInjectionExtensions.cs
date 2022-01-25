@@ -8,7 +8,7 @@ namespace Task4.Extensions
     {
         public static IServiceCollection AddApplicationDataContext(this IServiceCollection services, string connectionString)
         {
-            return services.AddDbContext<ApplicationDataContext>(builder => builder.UseSqlServer(connectionString));
+            return services.AddDbContext<ApplicationDataContext>(builder => builder.UseSqlite(connectionString));
         }
     }
 }

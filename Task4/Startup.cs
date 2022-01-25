@@ -25,7 +25,7 @@ namespace Task4
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplicationDataContext(Configuration.GetConnectionString("ApplicationDataContext"));
+            services.AddApplicationDataContext(Configuration.GetConnectionString("SqliteContext"));
             services.AddScoped<IRepository<ContactGroup>, GroupRepository>();
             services.AddScoped<IGroupService, GroupService>();
             services.AddScoped<IRepository<PhonebookEntry>, PhonebookEntryRepository>();
